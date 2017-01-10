@@ -1,0 +1,16 @@
+PODS:
+  - KWTextStyleLabel (0.1.0)
+
+DEPENDENCIES:
+  - KWTextStyleLabel (from `../`)
+
+EXTERNAL SOURCES:
+  KWTextStyleLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KWTextStyleLabel: 3c61d8dec7e9cb267ddcaff495219346470e34ac
+
+PODFILE CHECKSUM: d05350e87d88c1dd9bb3b0e3b700f0fc2e68abe8
+
+COCOAPODS: 1.1.1

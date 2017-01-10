@@ -4,8 +4,6 @@ target 'KWTextStyleLabel_Example' do
   pod 'KWTextStyleLabel', :path => '../'
 
   target 'KWTextStyleLabel_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
+    pod 'KWTextStyleLabel', :path => '../'
   end
 end

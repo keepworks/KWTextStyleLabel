@@ -1,0 +1,22 @@
+{
+  "name": "KWTextStyleLabel",
+  "version": "0.1.0",
+  "summary": "A short description of KWTextStyleLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/KWTextStyleLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vinoth Anandan": "vinoth@keepworks.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/KWTextStyleLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KWTextStyleLabel/Classes/**/*"
+}

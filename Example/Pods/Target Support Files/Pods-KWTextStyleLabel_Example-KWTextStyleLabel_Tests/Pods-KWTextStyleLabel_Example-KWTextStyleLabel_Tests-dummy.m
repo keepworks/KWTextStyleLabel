@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_KWTextStyleLabel_Example_KWTextStyleLabel_Tests : NSObject
+@end
+@implementation PodsDummy_Pods_KWTextStyleLabel_Example_KWTextStyleLabel_Tests
+@end
