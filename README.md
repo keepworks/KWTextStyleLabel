@@ -56,7 +56,7 @@ KWTextStyleLabel is owned and maintained by the [KeepWorks](http://www.keepworks
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://bitbucket.org/keepworks/kwtextstylelabel.
+Bug reports and pull requests are welcome on GitHub at https://github.com/keepworks/KWTextStyleLabel.
 
 ## License
 
