@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
 Helps in modifying character spacing and line spacing to your label. You can modify using storyboard (Text Style Label) or programmatically.
                        DESC
 
-  s.homepage         = 'https://github.com/keepworks/KWTextStyleLabel'
+  s.homepage         = 'https://bitbucket.org/keepworks/kwtextstylelabel'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Vinoth Anandan S' => 'vinoth@keepworks.com' }
-  s.source           = { :git => 'https://github.com/keepworks/KWTextStyleLabel.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://bitbucket.org/keepworks/kwtextstylelabel.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'KWTextStyleLabel/Classes/**/*'
