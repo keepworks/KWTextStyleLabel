@@ -23,21 +23,20 @@ pod "KWTextStyleLabel"
 ```
 
 ## How to use
-#
+
 #### Add the class KWTextStyleLabel to label on storyboard
-#
-#
-<img src="addingKWTextStyleLabel.png" width="187" height="333">
-#
+
+![Adding KWTextStyleLabel](addingKWTextStyleLabel.png)
+
 #### Modifying character spacing and line spacing using storyboard
-#
-#
-<img src="modifyByStoryboard.png" width="187" height="333">
-#
+
+![Modify in storyboard](modifyByStoryboard.png)
+
 #### Or modifying character spacing and line spacing by programmatically
-#
-#
+
 ```swift
+import KWTextStyleLabel
+
 @IBOutlet weak var label: KWTextStyleLabel!
 
 label.characterSpacing = 3
