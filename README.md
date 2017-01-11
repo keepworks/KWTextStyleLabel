@@ -22,10 +22,43 @@ it, simply add the following line to your Podfile:
 pod "KWTextStyleLabel"
 ```
 
+## How to use
+#
+#### Add the class KWTextStyleLabel to label on storyboard
+#
+#
+<img src="addingKWTextStyleLabel.png" width="187" height="333">
+#
+#### Modifying character spacing and line spacing using storyboard
+#
+#
+<img src="modifyByStoryboard.png" width="187" height="333">
+#
+#### Or modifying character spacing and line spacing by programmatically
+#
+#
+```swift
+@IBOutlet weak var label: KWTextStyleLabel!
+
+label.characterSpacing = 3
+label.lineGap = 10
+label.text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+```
+
 ## Author
 
 Vinoth Anandan, vinoth@keepworks.com
 
+## Credits
+
+KWTextStyleLabel is owned and maintained by the [KeepWorks](http://www.keepworks.com/).
+
+[![N|Solid](http://www.keepworks.com/assets/logo-800bbf55fabb3427537cf669dc8cd018.png)](http://www.keepworks.com/)
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://bitbucket.org/keepworks/kwtextstylelabel.
+
 ## License
 
-KWTextStyleLabel is available under the MIT license. See the LICENSE file for more info.
+KWTextStyleLabel is available under the [MIT License](http://opensource.org/licenses/MIT). See the LICENSE file for more info.
