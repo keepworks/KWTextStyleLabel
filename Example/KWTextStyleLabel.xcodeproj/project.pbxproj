@@ -13,8 +13,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		6F250C3B89A0EF508F08AE75 /* Pods_KWTextStyleLabel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CCDD07A4C1A4614F3D0E76 /* Pods_KWTextStyleLabel_Tests.framework */; };
-		7F45ED709CF6F41BD02C86E6 /* Pods_KWTextStyleLabel_Example_KWTextStyleLabel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D496E06330791F7B3BB072 /* Pods_KWTextStyleLabel_Example_KWTextStyleLabel_Tests.framework */; };
 		F2EB0BDC4CBFE4FB16CB6F49 /* Pods_KWTextStyleLabel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80148D5D26EDFA7E0F2E174E /* Pods_KWTextStyleLabel_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +29,6 @@
 /* Begin PBXFileReference section */
 		2F3481396D95BA5CCC70548A /* Pods-KWTextStyleLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWTextStyleLabel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KWTextStyleLabel_Example/Pods-KWTextStyleLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3B0740BA4FE804A668633B6F /* KWTextStyleLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KWTextStyleLabel.podspec; path = ../KWTextStyleLabel.podspec; sourceTree = "<group>"; };
-		3F50AC27116C8007719EFC0B /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		40D496E06330791F7B3BB072 /* Pods_KWTextStyleLabel_Example_KWTextStyleLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWTextStyleLabel_Example_KWTextStyleLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* KWTextStyleLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWTextStyleLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +40,6 @@
 		607FACE51AFB9204008FA782 /* KWTextStyleLabel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KWTextStyleLabel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6A4473813C39359E4207A86C /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		80148D5D26EDFA7E0F2E174E /* Pods_KWTextStyleLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWTextStyleLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD71E7218FD50D3A1716C4EC /* Pods-KWTextStyleLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWTextStyleLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KWTextStyleLabel_Example/Pods-KWTextStyleLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B2B64461B46CEBC41F95A0C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -66,8 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F250C3B89A0EF508F08AE75 /* Pods_KWTextStyleLabel_Tests.framework in Frameworks */,
-				7F45ED709CF6F41BD02C86E6 /* Pods_KWTextStyleLabel_Example_KWTextStyleLabel_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +75,6 @@
 				AD71E7218FD50D3A1716C4EC /* Pods-KWTextStyleLabel_Example.release.xcconfig */,
 				DA6B133529479ED555F985F3 /* Pods-KWTextStyleLabel_Tests.debug.xcconfig */,
 				E36C94D96D06CB47A6BFD948 /* Pods-KWTextStyleLabel_Tests.release.xcconfig */,
-				6A4473813C39359E4207A86C /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.debug.xcconfig */,
-				3F50AC27116C8007719EFC0B /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -194,12 +186,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "KWTextStyleLabel_Tests" */;
 			buildPhases = (
-				62A878A67409B8AA9AF6AD39 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				DF84E6321090783A7DC01481 /* [CP] Embed Pods Frameworks */,
-				4033C0B804C12045FBF2DD6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,36 +276,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KWTextStyleLabel_Example/Pods-KWTextStyleLabel_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4033C0B804C12045FBF2DD6D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		62A878A67409B8AA9AF6AD39 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		9AC742039B879CBAAE95CFAF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -345,21 +304,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KWTextStyleLabel_Example/Pods-KWTextStyleLabel_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DF84E6321090783A7DC01481 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -524,7 +468,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A4473813C39359E4207A86C /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -544,7 +487,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F50AC27116C8007719EFC0B /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
