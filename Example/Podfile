@@ -2,8 +2,4 @@ use_frameworks!
 
 target 'KWTextStyleLabel_Example' do
   pod 'KWTextStyleLabel', :path => '../'
-
-  target 'KWTextStyleLabel_Tests' do
-    pod 'KWTextStyleLabel', :path => '../'
-  end
 end

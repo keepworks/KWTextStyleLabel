@@ -7,16 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DA6C0211E252B1100D67E26 /* KWTextStyleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6C0201E252B1100D67E26 /* KWTextStyleLabel.swift */; };
-		0E9D62080FABE871ECDCF20F0876E2AB /* Pods-KWTextStyleLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A1F011175AB37294F8FD73A20B7E51 /* Pods-KWTextStyleLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E9D62080FABE871ECDCF20F0876E2AB /* Pods-KWTextStyleLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C82739C4776816FAC01848F8F930EBB /* Pods-KWTextStyleLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15F494745E776351B7C856D3E822CB08 /* KWTextStyleLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E850E1EDF62A5FC8011D759D70518718 /* KWTextStyleLabel-dummy.m */; };
 		1EB77AB61F353A26C94BFCC5111F7069 /* KWTextStyleLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 830F1D78F9CC6E157EC0C60059A8DE60 /* KWTextStyleLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29D6C787A3CE573917086DB7C3EF2DB4 /* KWTextStyleLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E850E1EDF62A5FC8011D759D70518718 /* KWTextStyleLabel-dummy.m */; };
-		2D9E80999F544972CC6550D45BC8A40F /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D34AD254DA3FCBA23B0185308AB1F0 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36EFBBA644D00F9FEBEE0263C9FDCF18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		4A8CCA02969AD2A88FE7899CF972D686 /* Pods-KWTextStyleLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA503E16CBC7F5DD656F2E0936AD1C3 /* Pods-KWTextStyleLabel_Example-dummy.m */; };
+		4A8CCA02969AD2A88FE7899CF972D686 /* Pods-KWTextStyleLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E32F95CEA06B550222F3AC1408C90721 /* Pods-KWTextStyleLabel_Example-dummy.m */; };
+		4F9F2883E74159284E7BAD523DCC5637 /* KWTextStyleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF885D1A79D6643B5AE7CFA8D59DBDF /* KWTextStyleLabel.swift */; };
 		CBC014F179634D2918685F584053D328 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		CE1F4A85107CA5D4D7DB037F8873B482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		FFA16D68C0CF65FBFC075524D2F9603F /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40934D47E9BFE940998BF24EA028FF2C /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,46 +24,28 @@
 			remoteGlobalIDString = 9ACEA451E80C74EF100977285D91DF38;
 			remoteInfo = KWTextStyleLabel;
 		};
-		C961A5BD8320BB1B85236F3E771A2743 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9ACEA451E80C74EF100977285D91DF38;
-			remoteInfo = KWTextStyleLabel;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07A1F011175AB37294F8FD73A20B7E51 /* Pods-KWTextStyleLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KWTextStyleLabel_Example-umbrella.h"; sourceTree = "<group>"; };
-		0DA6C0201E252B1100D67E26 /* KWTextStyleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWTextStyleLabel.swift; sourceTree = "<group>"; };
-		20A72DBF562E5E0DD0441A88FC666FF1 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		21C90D3919A1D3386120C4310404C0E7 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2235E78041CB7429B85DD8911B9ABDEB /* Pods-KWTextStyleLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWTextStyleLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3ECB6BAA07A819A38D651C3BD8DBAECE /* Pods-KWTextStyleLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWTextStyleLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		40934D47E9BFE940998BF24EA028FF2C /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-dummy.m"; sourceTree = "<group>"; };
-		41177FD1ADDDB88A1592970D37B4E6BA /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4543FBB8ABF04E944C2F9FBEF82A38A8 /* Pods-KWTextStyleLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KWTextStyleLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4AF96AEA394324154E896C00973A0651 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.modulemap"; sourceTree = "<group>"; };
-		4C87FA5336E23B8B6C9135558C62AA8A /* KWTextStyleLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KWTextStyleLabel.modulemap; sourceTree = "<group>"; };
-		580564C5F7B9A3F14EAE87EB0C60DCF1 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6BAF016114C9173464265B4A196ABB29 /* Pods-KWTextStyleLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KWTextStyleLabel_Example.modulemap"; sourceTree = "<group>"; };
-		778D81D234E42B5187F548C1CCE721F5 /* Pods-KWTextStyleLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWTextStyleLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		11BF5A15540B3EDE6031ABD5D875E419 /* Pods-KWTextStyleLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KWTextStyleLabel_Example-resources.sh"; sourceTree = "<group>"; };
+		1C82739C4776816FAC01848F8F930EBB /* Pods-KWTextStyleLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KWTextStyleLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		4C87FA5336E23B8B6C9135558C62AA8A /* KWTextStyleLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KWTextStyleLabel.modulemap; sourceTree = "<group>"; };
 		77A5F91D927505D02506DA4D72F6DCD4 /* KWTextStyleLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KWTextStyleLabel-prefix.pch"; sourceTree = "<group>"; };
-		7ECFFF2D9B088EE56853FEA0F90A0092 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7FF83A04047F1D647791A9CC7B481537 /* KWTextStyleLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KWTextStyleLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF885D1A79D6643B5AE7CFA8D59DBDF /* KWTextStyleLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KWTextStyleLabel.swift; sourceTree = "<group>"; };
 		830F1D78F9CC6E157EC0C60059A8DE60 /* KWTextStyleLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KWTextStyleLabel-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98D34AD254DA3FCBA23B0185308AB1F0 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9908913CF74E23E349651AB3405AEF32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB62361CB43052EE7BF186DB27F5E157 /* Pods-KWTextStyleLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KWTextStyleLabel_Example-resources.sh"; sourceTree = "<group>"; };
-		B9126717847408376CB163BBEEA4E5A6 /* Pods-KWTextStyleLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KWTextStyleLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB1EF2D43292A908780B4AD2C320D036 /* Pods_KWTextStyleLabel_Example_KWTextStyleLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWTextStyleLabel_Example_KWTextStyleLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		986831C8F3103BBC7BBE62291A755286 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD0605C3F57BD7C2A1858A6106B55F0 /* Pods-KWTextStyleLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KWTextStyleLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB561A7C1516CD885728BDEF5687BFFB /* KWTextStyleLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KWTextStyleLabel.framework; path = KWTextStyleLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2CC91C7CE9A0280119EF30FEAE1E3D /* Pods-KWTextStyleLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KWTextStyleLabel_Example.modulemap"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D986DE3002B764D170EB1E26AD20B16E /* Pods_KWTextStyleLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWTextStyleLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD57DB55D65F3181C8549E8A32FC6F0F /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-resources.sh"; sourceTree = "<group>"; };
-		DDA503E16CBC7F5DD656F2E0936AD1C3 /* Pods-KWTextStyleLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KWTextStyleLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		D6FE02DB16E233DB3DD63D388BA6AAE1 /* Pods-KWTextStyleLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWTextStyleLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DEC10E5DFE87C626A766CE2B5A4EC0CF /* Pods-KWTextStyleLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KWTextStyleLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E32F95CEA06B550222F3AC1408C90721 /* Pods-KWTextStyleLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KWTextStyleLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		E3A2A099ADC2AD790540B1E644069574 /* Pods-KWTextStyleLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWTextStyleLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E4E188DC710C9B78EF63C02DDA724C15 /* Pods-KWTextStyleLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWTextStyleLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E850E1EDF62A5FC8011D759D70518718 /* KWTextStyleLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KWTextStyleLabel-dummy.m"; sourceTree = "<group>"; };
-		E893D38DAB8E1A0A9172E3CE88868261 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7883FDED58C8BF388E181AA3654F122 /* Pods_KWTextStyleLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KWTextStyleLabel_Example.framework; path = "Pods-KWTextStyleLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8875C7D66D7F1748D1574330B2F9998 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BFDB61240413FD92CD948695361FE8 /* KWTextStyleLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KWTextStyleLabel.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,14 +56,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBC014F179634D2918685F584053D328 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96EBF749AE3B34EE39D4C2988AFE5C90 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				36EFBBA644D00F9FEBEE0263C9FDCF18 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +78,15 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		464DD466A5094451A5A2A9470F244DEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7DF885D1A79D6643B5AE7CFA8D59DBDF /* KWTextStyleLabel.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		4989141FCB6186159EA7A7FE514448FE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,30 +101,13 @@
 			path = "Example/Pods/Target Support Files/KWTextStyleLabel";
 			sourceTree = "<group>";
 		};
-		4D3D3184000D58DFE67CC2EC065AD9EC /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests */ = {
+		5C6332997D43A581DDAC43155123ED2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E893D38DAB8E1A0A9172E3CE88868261 /* Info.plist */,
-				4AF96AEA394324154E896C00973A0651 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.modulemap */,
-				21C90D3919A1D3386120C4310404C0E7 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-acknowledgements.markdown */,
-				580564C5F7B9A3F14EAE87EB0C60DCF1 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-acknowledgements.plist */,
-				40934D47E9BFE940998BF24EA028FF2C /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-dummy.m */,
-				41177FD1ADDDB88A1592970D37B4E6BA /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-frameworks.sh */,
-				DD57DB55D65F3181C8549E8A32FC6F0F /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-resources.sh */,
-				98D34AD254DA3FCBA23B0185308AB1F0 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-umbrella.h */,
-				20A72DBF562E5E0DD0441A88FC666FF1 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.debug.xcconfig */,
-				7ECFFF2D9B088EE56853FEA0F90A0092 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.release.xcconfig */,
+				AB561A7C1516CD885728BDEF5687BFFB /* KWTextStyleLabel.framework */,
+				F7883FDED58C8BF388E181AA3654F122 /* Pods_KWTextStyleLabel_Example.framework */,
 			);
-			name = "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests";
-			path = "Target Support Files/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests";
-			sourceTree = "<group>";
-		};
-		4F00C0B342D01ECD75389BA79FE5BDE8 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0DA6C0201E252B1100D67E26 /* KWTextStyleLabel.swift */,
-			);
-			path = Classes;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -171,26 +134,35 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				3815DABB5F11852535D48A61E47B3ECE /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9B3DB4F48607A90326046A2CEC70FE5D /* Products */,
-				D7C0923EEB52F684B50639236F9FEBA2 /* Targets Support Files */,
+				5C6332997D43A581DDAC43155123ED2E /* Products */,
+				E4A95BEA71DEEE32334F4552983A2871 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9B3DB4F48607A90326046A2CEC70FE5D /* Products */ = {
+		9348A15D77C104BF469B19FBEC84AB2E /* Pods-KWTextStyleLabel_Example */ = {
 			isa = PBXGroup;
 			children = (
-				7FF83A04047F1D647791A9CC7B481537 /* KWTextStyleLabel.framework */,
-				D986DE3002B764D170EB1E26AD20B16E /* Pods_KWTextStyleLabel_Example.framework */,
-				CB1EF2D43292A908780B4AD2C320D036 /* Pods_KWTextStyleLabel_Example_KWTextStyleLabel_Tests.framework */,
+				986831C8F3103BBC7BBE62291A755286 /* Info.plist */,
+				AF2CC91C7CE9A0280119EF30FEAE1E3D /* Pods-KWTextStyleLabel_Example.modulemap */,
+				9DD0605C3F57BD7C2A1858A6106B55F0 /* Pods-KWTextStyleLabel_Example-acknowledgements.markdown */,
+				E4E188DC710C9B78EF63C02DDA724C15 /* Pods-KWTextStyleLabel_Example-acknowledgements.plist */,
+				E32F95CEA06B550222F3AC1408C90721 /* Pods-KWTextStyleLabel_Example-dummy.m */,
+				DEC10E5DFE87C626A766CE2B5A4EC0CF /* Pods-KWTextStyleLabel_Example-frameworks.sh */,
+				11BF5A15540B3EDE6031ABD5D875E419 /* Pods-KWTextStyleLabel_Example-resources.sh */,
+				1C82739C4776816FAC01848F8F930EBB /* Pods-KWTextStyleLabel_Example-umbrella.h */,
+				E3A2A099ADC2AD790540B1E644069574 /* Pods-KWTextStyleLabel_Example.debug.xcconfig */,
+				D6FE02DB16E233DB3DD63D388BA6AAE1 /* Pods-KWTextStyleLabel_Example.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-KWTextStyleLabel_Example";
+			path = "Target Support Files/Pods-KWTextStyleLabel_Example";
 			sourceTree = "<group>";
 		};
 		9BE85D2DA377B43D833118CBA49AFACF /* KWTextStyleLabel */ = {
 			isa = PBXGroup;
 			children = (
-				4F00C0B342D01ECD75389BA79FE5BDE8 /* Classes */,
+				464DD466A5094451A5A2A9470F244DEA /* Classes */,
 			);
+			name = KWTextStyleLabel;
 			path = KWTextStyleLabel;
 			sourceTree = "<group>";
 		};
@@ -202,29 +174,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C6156DB1E0637B4D699E4CE352EA0FDE /* Pods-KWTextStyleLabel_Example */ = {
+		E4A95BEA71DEEE32334F4552983A2871 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9908913CF74E23E349651AB3405AEF32 /* Info.plist */,
-				6BAF016114C9173464265B4A196ABB29 /* Pods-KWTextStyleLabel_Example.modulemap */,
-				B9126717847408376CB163BBEEA4E5A6 /* Pods-KWTextStyleLabel_Example-acknowledgements.markdown */,
-				3ECB6BAA07A819A38D651C3BD8DBAECE /* Pods-KWTextStyleLabel_Example-acknowledgements.plist */,
-				DDA503E16CBC7F5DD656F2E0936AD1C3 /* Pods-KWTextStyleLabel_Example-dummy.m */,
-				4543FBB8ABF04E944C2F9FBEF82A38A8 /* Pods-KWTextStyleLabel_Example-frameworks.sh */,
-				AB62361CB43052EE7BF186DB27F5E157 /* Pods-KWTextStyleLabel_Example-resources.sh */,
-				07A1F011175AB37294F8FD73A20B7E51 /* Pods-KWTextStyleLabel_Example-umbrella.h */,
-				778D81D234E42B5187F548C1CCE721F5 /* Pods-KWTextStyleLabel_Example.debug.xcconfig */,
-				2235E78041CB7429B85DD8911B9ABDEB /* Pods-KWTextStyleLabel_Example.release.xcconfig */,
-			);
-			name = "Pods-KWTextStyleLabel_Example";
-			path = "Target Support Files/Pods-KWTextStyleLabel_Example";
-			sourceTree = "<group>";
-		};
-		D7C0923EEB52F684B50639236F9FEBA2 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6156DB1E0637B4D699E4CE352EA0FDE /* Pods-KWTextStyleLabel_Example */,
-				4D3D3184000D58DFE67CC2EC065AD9EC /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests */,
+				9348A15D77C104BF469B19FBEC84AB2E /* Pods-KWTextStyleLabel_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -248,40 +201,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		994926E3B163C421064D30B0CB18A399 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D9E80999F544972CC6550D45BC8A40F /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3CFE1B8EE3244D13B19C651C779BB239 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A728E4DC1A6DE4B8107C400481493AC1 /* Build configuration list for PBXNativeTarget "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests" */;
-			buildPhases = (
-				ACDF29CC7A3C4EA47A691C344F72748D /* Sources */,
-				96EBF749AE3B34EE39D4C2988AFE5C90 /* Frameworks */,
-				994926E3B163C421064D30B0CB18A399 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3457CF67704BADB8F7C88B562AC65814 /* PBXTargetDependency */,
-			);
-			name = "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests";
-			productName = "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests";
-			productReference = CB1EF2D43292A908780B4AD2C320D036 /* Pods_KWTextStyleLabel_Example_KWTextStyleLabel_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		9ACEA451E80C74EF100977285D91DF38 /* KWTextStyleLabel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91FD0E61DC9EB525919B6EB2907FEAC6 /* Build configuration list for PBXNativeTarget "KWTextStyleLabel" */;
 			buildPhases = (
-				77A8AD700723839B3E9F72CFC3FA49C9 /* Sources */,
+				9F503A3FB3BE391065493AD0A29C8914 /* Sources */,
 				E889D7929F4AB1930512F40CFA54481A /* Frameworks */,
 				1D4A0DE1C4537783FA8E8F83248B755E /* Headers */,
 			);
@@ -291,7 +218,7 @@
 			);
 			name = KWTextStyleLabel;
 			productName = KWTextStyleLabel;
-			productReference = 7FF83A04047F1D647791A9CC7B481537 /* KWTextStyleLabel.framework */;
+			productReference = AB561A7C1516CD885728BDEF5687BFFB /* KWTextStyleLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B3C9CB6254A7B92DF59B260B76CA0854 /* Pods-KWTextStyleLabel_Example */ = {
@@ -309,7 +236,7 @@
 			);
 			name = "Pods-KWTextStyleLabel_Example";
 			productName = "Pods-KWTextStyleLabel_Example";
-			productReference = D986DE3002B764D170EB1E26AD20B16E /* Pods_KWTextStyleLabel_Example.framework */;
+			productReference = F7883FDED58C8BF388E181AA3654F122 /* Pods_KWTextStyleLabel_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -329,13 +256,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9B3DB4F48607A90326046A2CEC70FE5D /* Products */;
+			productRefGroup = 5C6332997D43A581DDAC43155123ED2E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9ACEA451E80C74EF100977285D91DF38 /* KWTextStyleLabel */,
 				B3C9CB6254A7B92DF59B260B76CA0854 /* Pods-KWTextStyleLabel_Example */,
-				3CFE1B8EE3244D13B19C651C779BB239 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -349,32 +275,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77A8AD700723839B3E9F72CFC3FA49C9 /* Sources */ = {
+		9F503A3FB3BE391065493AD0A29C8914 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29D6C787A3CE573917086DB7C3EF2DB4 /* KWTextStyleLabel-dummy.m in Sources */,
-				0DA6C0211E252B1100D67E26 /* KWTextStyleLabel.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACDF29CC7A3C4EA47A691C344F72748D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFA16D68C0CF65FBFC075524D2F9603F /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests-dummy.m in Sources */,
+				15F494745E776351B7C856D3E822CB08 /* KWTextStyleLabel-dummy.m in Sources */,
+				4F9F2883E74159284E7BAD523DCC5637 /* KWTextStyleLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3457CF67704BADB8F7C88B562AC65814 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KWTextStyleLabel;
-			target = 9ACEA451E80C74EF100977285D91DF38 /* KWTextStyleLabel */;
-			targetProxy = C961A5BD8320BB1B85236F3E771A2743 /* PBXContainerItemProxy */;
-		};
 		C55174DBE3940DB4F6BD4374485E768C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KWTextStyleLabel;
@@ -418,7 +330,7 @@
 		};
 		5DDFF8459BC43F504E91C4393567D996 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2235E78041CB7429B85DD8911B9ABDEB /* Pods-KWTextStyleLabel_Example.release.xcconfig */;
+			baseConfigurationReference = D6FE02DB16E233DB3DD63D388BA6AAE1 /* Pods-KWTextStyleLabel_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -535,77 +447,6 @@
 			};
 			name = Debug;
 		};
-		9E246073FF9411BEA36C00712E0FF19D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20A72DBF562E5E0DD0441A88FC666FF1 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KWTextStyleLabel_Example_KWTextStyleLabel_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AD043F4DE5F781F38FB0076025F0209F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7ECFFF2D9B088EE56853FEA0F90A0092 /* Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests/Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KWTextStyleLabel_Example_KWTextStyleLabel_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B1CC475B8894938ED48CF6B93E544633 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F9BFDB61240413FD92CD948695361FE8 /* KWTextStyleLabel.xcconfig */;
@@ -641,7 +482,7 @@
 		};
 		DEA40BA9321898860590BB287F870010 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 778D81D234E42B5187F548C1CCE721F5 /* Pods-KWTextStyleLabel_Example.debug.xcconfig */;
+			baseConfigurationReference = E3A2A099ADC2AD790540B1E644069574 /* Pods-KWTextStyleLabel_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -692,15 +533,6 @@
 			buildConfigurations = (
 				B1CC475B8894938ED48CF6B93E544633 /* Debug */,
 				493FBE34C3A68CF14265D04EA7AECDAF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A728E4DC1A6DE4B8107C400481493AC1 /* Build configuration list for PBXNativeTarget "Pods-KWTextStyleLabel_Example-KWTextStyleLabel_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9E246073FF9411BEA36C00712E0FF19D /* Debug */,
-				AD043F4DE5F781F38FB0076025F0209F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

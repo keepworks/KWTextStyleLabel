@@ -1,5 +1,7 @@
 # KWTextStyleLabel
 
+<img src="screenshot.png" width="187" height="333">
+
 [![CI Status](http://img.shields.io/travis/Vinoth Anandan/KWTextStyleLabel.svg?style=flat)](https://travis-ci.org/Vinoth Anandan/KWTextStyleLabel)
 [![Version](https://img.shields.io/cocoapods/v/KWTextStyleLabel.svg?style=flat)](http://cocoapods.org/pods/KWTextStyleLabel)
 [![License](https://img.shields.io/cocoapods/l/KWTextStyleLabel.svg?style=flat)](http://cocoapods.org/pods/KWTextStyleLabel)

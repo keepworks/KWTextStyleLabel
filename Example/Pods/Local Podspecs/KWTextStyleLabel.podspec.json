@@ -1,18 +1,18 @@
 {
   "name": "KWTextStyleLabel",
   "version": "0.1.0",
-  "summary": "A short description of KWTextStyleLabel.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/KWTextStyleLabel",
+  "summary": "Subclass of UILabel to modify character spacing and line spacing to your label.",
+  "description": "Helps in modifying character spacing and line spacing to your label. You can modify using storyboard (Text Style Label) or programmatically.",
+  "homepage": "https://bitbucket.org/keepworks/kwtextstylelabel",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Vinoth Anandan": "vinoth@keepworks.com"
+    "Vinoth Anandan S": "vinoth@keepworks.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/KWTextStyleLabel.git",
+    "git": "https://bitbucket.org/keepworks/kwtextstylelabel.git",
     "tag": "0.1.0"
   },
   "platforms": {

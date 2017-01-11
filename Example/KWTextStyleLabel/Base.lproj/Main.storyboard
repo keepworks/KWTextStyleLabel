@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,32 +21,68 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBY-1B-pbW" customClass="KWTextStyleLabel" customModule="KWTextStyleLabel">
-                                <rect key="frame" x="39" y="70" width="296" height="297"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m8j-GV-ibK">
+                                <rect key="frame" x="28" y="46" width="320" height="575"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="justified" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBY-1B-pbW" customClass="KWTextStyleLabel" customModule="KWTextStyleLabel">
+                                        <rect key="frame" x="8" y="142" width="296" height="433"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="433" id="Zjq-e0-ceZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="lineGap">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="characterSpacing">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kerningText">
+                                                <string key="value">Body with 
+Character spacing: 3 and 
+Line spacing: 10
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICB-6o-zxg" customClass="KWTextStyleLabel" customModule="KWTextStyleLabel">
+                                        <rect key="frame" x="8" y="0.0" width="296" height="122"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="122" id="gpa-Oo-MND"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="lineGap">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="characterSpacing">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="kerningText" value="Heading with Character spacing: 5 and Line spacing: 25"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="297" id="dSU-6b-FVQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="tBY-1B-pbW" secondAttribute="trailing" constant="16" id="0sC-cU-038"/>
+                                    <constraint firstAttribute="bottom" secondItem="tBY-1B-pbW" secondAttribute="bottom" id="9EN-r2-UJb"/>
+                                    <constraint firstItem="tBY-1B-pbW" firstAttribute="leading" secondItem="m8j-GV-ibK" secondAttribute="leading" constant="8" id="Ah3-71-KWg"/>
+                                    <constraint firstItem="ICB-6o-zxg" firstAttribute="leading" secondItem="m8j-GV-ibK" secondAttribute="leading" constant="8" id="PHb-2B-yaY"/>
+                                    <constraint firstItem="ICB-6o-zxg" firstAttribute="top" secondItem="m8j-GV-ibK" secondAttribute="top" id="Tjj-rl-9Lc"/>
+                                    <constraint firstAttribute="width" constant="320" id="UhG-RF-fGP"/>
+                                    <constraint firstAttribute="height" constant="575" id="fdB-uY-dIL"/>
+                                    <constraint firstAttribute="trailing" secondItem="ICB-6o-zxg" secondAttribute="trailing" constant="16" id="jcn-TF-c1I"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="lineGap">
-                                        <real key="value" value="6"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="characterSpacing">
-                                        <real key="value" value="3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="kerningText">
-                                        <string key="value">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </label>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="tBY-1B-pbW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="50" id="Lgh-zR-yMx"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="tBY-1B-pbW" secondAttribute="trailing" constant="24" id="RLl-id-eAj"/>
-                            <constraint firstItem="tBY-1B-pbW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="23" id="wIE-DJ-STg"/>
+                            <constraint firstItem="m8j-GV-ibK" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="TAa-p8-l2j"/>
+                            <constraint firstItem="m8j-GV-ibK" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="rfJ-ki-bbY"/>
                         </constraints>
                     </view>
                     <connections>
