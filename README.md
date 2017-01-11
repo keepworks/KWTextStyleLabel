@@ -47,7 +47,7 @@ label.text = "Lorem Ipsum is simply dummy text of the printing and typesetting i
 
 ## Author
 
-Vinoth Anandan, vinoth@keepworks.com
+KeepWorks, ios@keepworks.com
 
 ## Credits
 
