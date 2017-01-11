@@ -8,13 +8,21 @@
 
 import UIKit
 
-open class KWTextStyleLabel: UILabel {
-  
-  // MARK: - Variables
-  open var characterSpacing = 1.25
-  open var lineGap: CGFloat = 0
+@IBDesignable open class KWTextStyleLabel: UILabel {
   
   // MARK: - IBInspectables
+  @IBInspectable open var characterSpacing: CGFloat = 0 {
+    didSet {
+      text = kerningText
+    }
+  }
+  
+  @IBInspectable open var lineGap: CGFloat = 0 {
+    didSet {
+      text = kerningText
+    }
+  }
+  
   @IBInspectable var kerningText: String = "" {
     didSet {
       text = kerningText
