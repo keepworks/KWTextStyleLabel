@@ -9,7 +9,7 @@ Helps in modifying character spacing and line spacing to your label. You can mod
 
   s.homepage         = 'https://bitbucket.org/keepworks/kwtextstylelabel'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Vinoth Anandan S' => 'vinoth@keepworks.com' }
+  s.author           = { 'KeepWorks' => 'ios@keepworks.com' }
   s.source           = { :git => 'https://bitbucket.org/keepworks/kwtextstylelabel.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
