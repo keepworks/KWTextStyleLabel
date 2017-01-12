@@ -24,7 +24,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m8j-GV-ibK">
                                 <rect key="frame" x="28" y="46" width="320" height="575"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="justified" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBY-1B-pbW" customClass="KWTextStyleLabel" customModule="KWTextStyleLabel">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="justified" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBY-1B-pbW" userLabel="bodyLabel" customClass="KWTextStyleLabel" customModule="KWTextStyleLabel">
                                         <rect key="frame" x="8" y="142" width="296" height="433"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="433" id="Zjq-e0-ceZ"/>
@@ -47,35 +47,14 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICB-6o-zxg" customClass="KWTextStyleLabel" customModule="KWTextStyleLabel">
-                                        <rect key="frame" x="8" y="0.0" width="296" height="122"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="122" id="gpa-Oo-MND"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="lineGap">
-                                                <real key="value" value="25"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="characterSpacing">
-                                                <real key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="kerningText" value="Heading with Character spacing: 5 and Line spacing: 25"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="tBY-1B-pbW" secondAttribute="trailing" constant="16" id="0sC-cU-038"/>
                                     <constraint firstAttribute="bottom" secondItem="tBY-1B-pbW" secondAttribute="bottom" id="9EN-r2-UJb"/>
                                     <constraint firstItem="tBY-1B-pbW" firstAttribute="leading" secondItem="m8j-GV-ibK" secondAttribute="leading" constant="8" id="Ah3-71-KWg"/>
-                                    <constraint firstItem="ICB-6o-zxg" firstAttribute="leading" secondItem="m8j-GV-ibK" secondAttribute="leading" constant="8" id="PHb-2B-yaY"/>
-                                    <constraint firstItem="ICB-6o-zxg" firstAttribute="top" secondItem="m8j-GV-ibK" secondAttribute="top" id="Tjj-rl-9Lc"/>
                                     <constraint firstAttribute="width" constant="320" id="UhG-RF-fGP"/>
                                     <constraint firstAttribute="height" constant="575" id="fdB-uY-dIL"/>
-                                    <constraint firstAttribute="trailing" secondItem="ICB-6o-zxg" secondAttribute="trailing" constant="16" id="jcn-TF-c1I"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -86,7 +65,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="test" destination="tBY-1B-pbW" id="jut-7g-3Mi"/>
+                        <outlet property="bodyLabel" destination="tBY-1B-pbW" id="hPj-t9-1oj"/>
+                        <outlet property="subView" destination="m8j-GV-ibK" id="J14-Tt-leA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
