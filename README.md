@@ -1,6 +1,6 @@
 # KWTextStyleLabel
 
-<img src="ScreenShot/screenshot.png" width="187" height="333">
+<img src="ScreenShots/screenshot.png" width="187" height="333">
 
 [![Version](https://img.shields.io/cocoapods/v/KWTextStyleLabel.svg?style=flat)](http://cocoapods.org/pods/KWTextStyleLabel)
 [![License](https://img.shields.io/cocoapods/l/KWTextStyleLabel.svg?style=flat)](http://cocoapods.org/pods/KWTextStyleLabel)
@@ -25,11 +25,11 @@ pod "KWTextStyleLabel"
 
 #### Add the class KWTextStyleLabel to label on storyboard
 
-![Adding KWTextStyleLabel](ScreenShot/addingKWTextStyleLabel.png)
+![Adding KWTextStyleLabel](ScreenShots/addingKWTextStyleLabel.png)
 
 #### Modifying character spacing and line spacing using storyboard
 
-![Modify in storyboard](ScreenShot/modifyByStoryboard.png)
+![Modify in storyboard](ScreenShots/modifyByStoryboard.png)
 
 #### Or modifying character spacing and line spacing programmatically
 
