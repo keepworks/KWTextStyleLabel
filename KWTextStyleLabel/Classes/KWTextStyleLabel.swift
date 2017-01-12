@@ -10,6 +10,15 @@ import UIKit
 
 @IBDesignable open class KWTextStyleLabel: UILabel {
   
+  // MARK: - Convenience Initializer
+  public convenience init(characterSpacing: CGFloat = 0, lineGap: CGFloat = 0, text: String = "") {
+    self.init()
+
+    self.characterSpacing = characterSpacing
+    self.lineGap = lineGap
+    self.text = text
+  }
+
   // MARK: - IBInspectables
   @IBInspectable open var characterSpacing: CGFloat = 0 {
     didSet {
