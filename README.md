@@ -31,7 +31,7 @@ pod "KWTextStyleLabel"
 
 ![Modify in storyboard](ScreenShot/modifyByStoryboard.png)
 
-#### Or modifying character spacing and line spacing by programmatically
+#### Or modifying character spacing and line spacing programmatically
 
 ```swift
 import KWTextStyleLabel
