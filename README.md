@@ -1,8 +1,7 @@
 # KWTextStyleLabel
 
-<img src="screenshot.png" width="187" height="333">
+<img src="ScreenShots/screenshot.png" width="187" height="333">
 
-[![CI Status](http://img.shields.io/travis/Vinoth Anandan/KWTextStyleLabel.svg?style=flat)](https://travis-ci.org/Vinoth Anandan/KWTextStyleLabel)
 [![Version](https://img.shields.io/cocoapods/v/KWTextStyleLabel.svg?style=flat)](http://cocoapods.org/pods/KWTextStyleLabel)
 [![License](https://img.shields.io/cocoapods/l/KWTextStyleLabel.svg?style=flat)](http://cocoapods.org/pods/KWTextStyleLabel)
 [![Platform](https://img.shields.io/cocoapods/p/KWTextStyleLabel.svg?style=flat)](http://cocoapods.org/pods/KWTextStyleLabel)
@@ -23,21 +22,20 @@ pod "KWTextStyleLabel"
 ```
 
 ## How to use
-#
+
 #### Add the class KWTextStyleLabel to label on storyboard
-#
-#
-<img src="addingKWTextStyleLabel.png" width="187" height="333">
-#
+
+![Adding KWTextStyleLabel](ScreenShots/addingKWTextStyleLabel.png)
+
 #### Modifying character spacing and line spacing using storyboard
-#
-#
-<img src="modifyByStoryboard.png" width="187" height="333">
-#
-#### Or modifying character spacing and line spacing by programmatically
-#
-#
+
+![Modify in storyboard](ScreenShots/modifyByStoryboard.png)
+
+#### Or modifying character spacing and line spacing programmatically
+
 ```swift
+import KWTextStyleLabel
+
 @IBOutlet weak var label: KWTextStyleLabel!
 
 label.characterSpacing = 3
@@ -57,7 +55,7 @@ KWTextStyleLabel is owned and maintained by the [KeepWorks](http://www.keepworks
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://bitbucket.org/keepworks/kwtextstylelabel.
+Bug reports and pull requests are welcome on GitHub at https://github.com/keepworks/KWTextStyleLabel.
 
 ## License
 
