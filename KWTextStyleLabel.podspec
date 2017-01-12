@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KWTextStyleLabel'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Subclass of UILabel to modify character spacing and line spacing to your label.'
 
   s.description      = <<-DESC
