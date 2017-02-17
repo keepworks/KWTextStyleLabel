@@ -1,6 +1,0 @@
-framework module KWTextStyleLabel {
-  umbrella header "KWTextStyleLabel-umbrella.h"
-
-  export *
-  module * { export * }
-}
